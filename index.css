@@ -1,0 +1,122 @@
+@font-face {
+  font-family: gotham;
+  src: url(gotham-nights.otf) format("opentype");
+}
+
+.container{
+	background: transparent;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	min-width: 300px;
+	width: 300px;
+	border: 1.2px solid #0991F7;
+	padding-top: 20px;
+	padding-bottom: 85px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 8px 2px #0991F7;
+	font-family: gotham;
+}
+
+
+._log, ._in{
+	font-family:  gotham;
+	font-size: 30px;
+	letter-spacing: 3px;
+	text-shadow: -1px -1px 0 #0472bf, 1px -1px 0 #0472bf, -1px 1px 0 #0472bf, 1px 1px 0 #0472bf;
+	color: #fff;
+}
+._log{
+	position: relative;
+	height: 16px;
+	width: 28px;
+	padding-top: 0px;
+	padding-left: 130px;
+	padding-bottom: 20px;
+	border-bottom: 1.2px solid #459EEE;
+	box-shadow: 0 4px 10px -5px #0472bf;
+}
+._in{
+	position: relative;
+	height: 14px;	
+	width: 12px;
+	margin-top: -37px;
+	margin-left: 167px;
+	padding-top: 0px;
+	padding-right: 122px;
+	padding-bottom: 15px;
+	border-bottom: 1.2px solid #459EEE;
+	box-shadow: 0 4px 10px -5px #0472bf;
+}
+
+/****************   inputs *********************/
+.fa-user{
+	position: relative;
+	top: 27px;
+	left: 12px;
+	font-size: 29px;
+	/*to target text outline*/
+	text-shadow: -1px -1px 0 #0472bf, 1px -1px 0 #0472bf, -1px 1px 0 #0472bf, 1px 1px 0 #0472bf;
+	color: #fff;
+}
+.fa-lock{
+	position: relative;
+	top: 5px;
+	left: 7px;
+	font-size: 29px;
+	color: white;
+  	text-shadow: -1px -1px 0 #0472bf, 1px -1px 0 #0472bf, -1px 1px 0 #0472bf, 1px 1px 0 #0472bf;
+	color: #fff;
+}
+.input-bxs{
+	margin-top: 50px;
+}
+
+.email input{
+	margin-left: 45px;
+	padding: 7px 7px 7px 17px;
+	width: 230px;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px; 
+	border: 1px solid #459EEE; 
+	box-shadow: 0px 0px 10px 0px #0472bf;
+}
+.pswd{
+	margin-top: 35px;
+}
+.pswd input{	
+	padding: 7px 7px 7px 17px;
+	width: 230px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border: 1px solid #459EEE;
+	box-shadow: 0px 0px 10px 0px #0472bf;
+}
+.pswd input::placeholder, .email input::placeholder{
+	color: #0472bf;
+}
+
+.side-navs{
+	margin-top: 35px;
+	margin-left: 10px;
+	font-weight: bold;
+	font-size: 17px;
+	letter-spacing: 0.5px;
+	color: #555;
+}
+.side-navs a{
+	text-decoration: none;
+	color: #48ABD5;
+}
+.fgt-pswd{
+	margin-top: 10px;
+}
+
+.login{
+	float: right;
+	margin-top: 5px;
+	margin-right: 30px;
+	font-size: 25px;
+	letter-spacing: 2px;
+	color: #48ABD5;
+}
